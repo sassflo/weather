@@ -1,5 +1,9 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  h1= Welcome to DHBW Weather #{place}
+  tempBox= #{temp}°C
+  placeBox= place
+  weatherIcon
+  weatherBox= weather
+  statusBox= Current Status of Service: #{status}
